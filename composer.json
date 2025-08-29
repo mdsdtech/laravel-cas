@@ -33,7 +33,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^8.0|^9.0|^10.0|^11.0",
-    "pestphp/pest": "^1.21|^3.0"
+    "pestphp/pest": "^1.21|^3.0",
+    "orchestra/testbench": "^6.25"
   },
   "autoload": {
     "psr-4": {
@@ -58,8 +59,5 @@
         "Cas": "Subfission\\Cas\\Facades\\Cas"
       }
     }
-  },
-  "require-dev": {
-    "orchestra/testbench": "^6.25"
   }
 }
